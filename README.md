@@ -2,8 +2,6 @@
 
 <img src="quyll-banner.png" alt="Quyll — The Sovereign Studio for Authors & Worldbuilders" width="100%" style="max-width: 860px; border-radius: 12px;" />
 
-# 🪶 Quyll
-
 ### The calm, private, all-in-one writing studio for novelists, worldbuilders, and storytellers.
 
 Draft your manuscript, build a living story bible, map your world, and plot every beat in one offline-first desktop app.
