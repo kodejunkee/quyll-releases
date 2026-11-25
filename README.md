@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/quyll-banner.png" alt="Quyll — The Sovereign Studio for Authors & Worldbuilders" width="100%" style="max-width: 860px; border-radius: 12px;" />
+<img src="quyll-banner.png" alt="Quyll — The Sovereign Studio for Authors & Worldbuilders" width="100%" style="max-width: 860px; border-radius: 12px;" />
 
 # 🪶 Quyll
 
