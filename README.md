@@ -214,19 +214,20 @@ Get the newest installers from the **[Latest Release](https://github.com/kodejun
 
 | Platform | File | Notes |
 | :--- | :--- | :--- |
-| 🪟 **Windows** (64-bit) | `Quyll_<version>_x64-setup.exe` | **Recommended** for most users |
-| 🪟 **Windows** (64-bit) | `Quyll_<version>_x64_en-US.msi` | For managed / enterprise installs |
-| 🍎 **macOS** (Universal) | `Quyll_<version>_universal.dmg` | Native on Apple Silicon & Intel · Signed |
-| 🐧 **Linux** (64-bit) | `Quyll_<version>_amd64.AppImage` | Portable, runs on most distributions |
-| 🐧 **Linux** (64-bit) | `Quyll_<version>_amd64.deb` | Debian / Ubuntu and derivatives |
+| 🪟 **Windows** (64-bit) | [`Quyll_0.9.3_x64-setup.exe`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_x64-setup.exe) | **Recommended** for most users |
+| 🪟 **Windows** (64-bit) | [`Quyll_0.9.3_x64_en-US.msi`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_x64_en-US.msi) | For managed / enterprise installs |
+| 🍎 **macOS** (Universal) | [`Quyll_0.9.3_universal.dmg`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_universal.dmg) | Native on Apple Silicon & Intel · Signed |
+| 🐧 **Linux** (64-bit) | [`Quyll_0.9.3_amd64.AppImage`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_amd64.AppImage) | Portable, runs on most distributions |
+| 🐧 **Linux** (64-bit) | [`Quyll_0.9.3_amd64.deb`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_amd64.deb) | Debian / Ubuntu and derivatives |
+| 🐧 **Linux** (64-bit) | [`Quyll-0.9.3-1.x86_64.rpm`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll-0.9.3-1.x86_64.rpm) | Fedora / RHEL and derivatives |
 
 > [!IMPORTANT]
-> Files ending in `.sig` and `latest.json` are used by Quyll's built-in updater. **You don't need to download them.**
+> Files ending in `.sig`, `.tar.gz`, and `latest.json` on the Releases page are used by Quyll's built-in updater. **You don't need to download them.**
 
 <details>
 <summary><b>🪟 Installing on Windows</b></summary>
 
-1. Download `Quyll_<version>_x64-setup.exe`.
+1. Download [`Quyll_0.9.3_x64-setup.exe`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_x64-setup.exe).
 2. Double-click it and follow the installer.
 3. Open Quyll from the Start menu or the desktop shortcut.
 
@@ -235,7 +236,7 @@ Get the newest installers from the **[Latest Release](https://github.com/kodejun
 <details>
 <summary><b>🍎 Installing on macOS</b></summary>
 
-1. Download `Quyll_<version>_universal.dmg`.
+1. Download [`Quyll_0.9.3_universal.dmg`](https://github.com/kodejunkee/quyll-releases/releases/download/v0.9.3/Quyll_0.9.3_universal.dmg).
 2. Open it and drag **Quyll** into your **Applications** folder.
 3. Launch Quyll from Applications or Launchpad.
 
@@ -246,13 +247,18 @@ Get the newest installers from the **[Latest Release](https://github.com/kodejun
 
 **AppImage**
 ```bash
-chmod +x Quyll_<version>_amd64.AppImage
-./Quyll_<version>_amd64.AppImage
+chmod +x Quyll_0.9.3_amd64.AppImage
+./Quyll_0.9.3_amd64.AppImage
 ```
 
 **Debian / Ubuntu (.deb)**
 ```bash
-sudo apt install ./Quyll_<version>_amd64.deb
+sudo apt install ./Quyll_0.9.3_amd64.deb
+```
+
+**Fedora / RHEL (.rpm)**
+```bash
+sudo dnf install ./Quyll-0.9.3-1.x86_64.rpm
 ```
 
 </details>
@@ -265,7 +271,7 @@ sudo apt install ./Quyll_<version>_amd64.deb
 | :--- | :--- |
 | **Windows** | Windows 10 or 11 (64-bit) |
 | **macOS** | Apple Silicon or Intel Mac (Universal build) |
-| **Linux** | 64-bit distribution (AppImage or Debian-based for `.deb`) |
+| **Linux** | 64-bit distribution (AppImage, `.deb`, or `.rpm`) |
 | **Internet** | Not required. Only needed for updates and optional Pro features |
 
 ---
